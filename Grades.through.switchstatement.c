@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main()
 {
+    
     int a,b,c,d,e,f,g,h,grades;
-    printf("enter numbers of five subjects: ");
+    
+    printf("enter numbers of five subjects: ");        //declaring numbers
     scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
     f=a+b+c+d+e;
     g=f/5;
-    switch(g/10){
+    
+    switch(g/10){        //applying condition in the statement
         case 10:
             printf("A");
             break;
@@ -22,5 +25,6 @@ int main()
         default:
             printf("D");
     } 
+    
     return 0; 
 }
