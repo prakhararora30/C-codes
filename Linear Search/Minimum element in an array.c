@@ -17,7 +17,7 @@ int main(){
             m = a[i];
         }
     }
-    printf("the maximum element is: %d", m);
+    printf("the minimum element is: %d", m);
 
 
     return 0;
