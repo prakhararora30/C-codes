@@ -27,6 +27,12 @@ int main(){
             }
         }
 
+        if(min != i){
+            t=a[i];
+            a[i]=a[min];
+            a[min]=t;
+        }
+
     }
 
     printf("the sorted ascending array: ");
